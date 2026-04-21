@@ -1,0 +1,9 @@
+Scaffolding (README, workflow yml): MIT.
+
+Data (`data/`): each cloud's IP range publication carries its own terms.
+  - AWS ip-ranges.json — https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html
+  - Azure ServiceTags — https://www.microsoft.com/en-us/download/details.aspx?id=56519
+  - GCP cloud.json   — https://cloud.google.com/vpc/docs/subnets
+  - Cloudflare IPs    — https://www.cloudflare.com/ips/
+
+Review each provider's terms before redistribution.
